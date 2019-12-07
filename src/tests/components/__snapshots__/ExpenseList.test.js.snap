@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseList with empty message 1`] = `
+<div>
+  <p>
+    No expense
+  </p>
+</div>
+`;
+
+exports[`should render ExpenseList with expenses 1`] = `
+<div>
+  <Connect(ExpenseListItem)
+    amount={100}
+    createdAt={0}
+    description="Water bill"
+    id="1"
+    note=""
+  />
+  <Connect(ExpenseListItem)
+    amount={1500}
+    createdAt={-345600000}
+    description="Gas bill"
+    id="2"
+    note=""
+  />
+  <Connect(ExpenseListItem)
+    amount={2500}
+    createdAt={345600000}
+    description="Cabel bill"
+    id="3"
+    note=""
+  />
+</div>
+`;
